@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		CB1310F3176710C9003C5491 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB1310F2176710C9003C5491 /* main.cpp */; };
-		CB1310F5176710C9003C5491 /* poj.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB1310F4176710C9003C5491 /* poj.1 */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		CB1310ED176710C9003C5491 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,7 +13,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				CB1310F5176710C9003C5491 /* poj.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -26,8 +20,6 @@
 
 /* Begin PBXFileReference section */
 		CB1310EF176710C9003C5491 /* poj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = poj; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1310F2176710C9003C5491 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CB1310F4176710C9003C5491 /* poj.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = poj.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +52,6 @@
 		CB1310F1176710C9003C5491 /* poj */ = {
 			isa = PBXGroup;
 			children = (
-				CB1310F2176710C9003C5491 /* main.cpp */,
-				CB1310F4176710C9003C5491 /* poj.1 */,
 			);
 			path = poj;
 			sourceTree = "<group>";
@@ -117,7 +107,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1310F3176710C9003C5491 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +205,7 @@
 				CB1310FA176710C9003C5491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
