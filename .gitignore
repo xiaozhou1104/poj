@@ -1,0 +1,13 @@
+eg:
+/poj/
+
+*.sln
+*.suo
+*.sdf
+
+*.user
+*.filters
+*.vcxproj
+
+
+/Debug/
