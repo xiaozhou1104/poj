@@ -1,4 +1,3 @@
-eg:
 
 *.sln
 *.suo
@@ -9,4 +8,6 @@ eg:
 *.vcxproj
 
 
-/Debug/
+/Debug
+/ipch
+/poj.xcodeproj
